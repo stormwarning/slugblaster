@@ -1,8 +1,9 @@
 {
   "private": true,
   "name": "slugblaster",
-  "description": "My finest Nuxt.js project",
+  "description": "Kick-flip over a quantum centipede. A table-top role-playing game by Mikey Hamm.",
   "author": "Jeff",
+  "homepage": "https://slugblaster.netlify.com/",
   "version": "1.0.0",
   "scripts": {
     "build": "nuxt build",
@@ -28,8 +29,8 @@
     "husky": "3.0.x",
     "jest": "24.1.x",
     "lint-staged": "9.2.x",
-    "vue-jest": "3.0.x",
-    "stylelint": "11.0.x"
+    "stylelint": "11.0.x",
+    "vue-jest": "3.0.x"
   },
   "husky": {
     "hooks": {
