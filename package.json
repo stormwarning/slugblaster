@@ -1,0 +1,54 @@
+{
+  "private": true,
+  "name": "slugblaster",
+  "description": "My finest Nuxt.js project",
+  "author": "Jeff",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "start": "nuxt start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nuxtjs/pwa": "3.0.0-beta.19",
+    "nuxt": "2.10.1",
+    "parallax-js": "3.1.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "1.0.x",
+    "@vue/test-utils": "1.0.0-beta.27",
+    "@zazen/eslint-config": "1.0.x",
+    "@zazen/stylelint-config": "1.0.x",
+    "babel-jest": "24.1.x",
+    "eslint": "6.4.x",
+    "eslint-plugin-vue": "5.2.x",
+    "husky": "3.0.x",
+    "jest": "24.1.x",
+    "lint-staged": "9.2.x",
+    "vue-jest": "3.0.x",
+    "stylelint": "11.0.x"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,vue}": [
+      "prettier-eslint --write",
+      "git add"
+    ]
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "htmlWhitespaceSensitivity": "strict",
+    "proseWrap": "never",
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 4,
+    "trailingComma": "all"
+  }
+}
