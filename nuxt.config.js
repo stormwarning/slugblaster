@@ -1,3 +1,7 @@
+const SITE_TITLE = 'Slugblaster'
+const SITE_DESCRIPTION =
+    'Kick-flip over a quantum centipede. A table-top role-playing game by Mikey Hamm.'
+
 export default {
     mode: 'universal',
 
@@ -5,7 +9,7 @@ export default {
       Headers of the page
      */
     head: {
-        title: process.env.npm_package_name || '',
+        title: SITE_TITLE,
         meta: [
             { charset: 'utf-8' },
             {
@@ -15,7 +19,7 @@ export default {
             {
                 hid: 'description',
                 name: 'description',
-                content: process.env.npm_package_description || '',
+                content: SITE_DESCRIPTION,
             },
         ],
         link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],

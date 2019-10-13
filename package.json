@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "slugblaster",
-  "description": "Kick-flip over a quantum centipede. A table-top role-playing game by Mikey Hamm.",
+  "description": "Kick-flip over a quantum centipede.",
   "author": "Jeff",
   "homepage": "https://slugblaster.netlify.com/",
   "version": "1.0.0",
