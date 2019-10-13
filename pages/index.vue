@@ -15,7 +15,6 @@
 
 <script>
 import Parallax from 'parallax-js'
-import Logo from '~/components/Logo.vue'
 
 export default {
     components: {
