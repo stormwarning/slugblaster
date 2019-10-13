@@ -17,10 +17,6 @@
 import Parallax from 'parallax-js'
 
 export default {
-    components: {
-        Logo,
-    },
-
     mounted() {
         this.Parallax = new Parallax(this.$refs.parallaxCover, {
             relativeInput: true,
